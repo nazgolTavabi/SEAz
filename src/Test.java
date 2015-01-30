@@ -24,7 +24,7 @@ class Test
         }
     }
 
-#agha test mul ra add kon
+
     private static void testMul()
     {
         int a = 5;
