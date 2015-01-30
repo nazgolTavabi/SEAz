@@ -5,6 +5,7 @@ class Test
         testSum();
 		testSub();
         testMul();
+        testDiv();
     }
 
     private static void testSum()
@@ -58,5 +59,22 @@ class Test
             System.out.println("mul: Failed, expected = " + expected + ", result = " + result);
         }
     }
+    private static void testDiv()
+    {
+        int a = 10;
+        int b = 2;
+        double expected = 5;
+        BasicMath bm = new BasicMath();
+        int result = bm.divide(a, b);
+        if (result == expected)
+        {
+            System.out.println("devide: OK");
+        }
+        else
+        {
+            System.out.println("devide: Failed, expected = " + expected + ", result = " + result);
+        }
+    }
+
      
 }
