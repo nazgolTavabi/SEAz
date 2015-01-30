@@ -6,7 +6,7 @@ class BasicMath
         return a + b;
     }
 
-// multiply
+// multiply kon jane man
 	public int mul(int a, int b)
     {
     	return a * b;
