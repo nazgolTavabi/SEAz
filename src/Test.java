@@ -23,7 +23,13 @@ class Test
             System.out.println("Sum: Failed, expected = " + expected + ", result = " + result);
         }
     }
+<<<<<<< HEAD
     private static void testSub()
+=======
+
+#agha test mul ra add kon
+    private static void testMul()
+>>>>>>> anahita
     {
         int a = 5;
         int b = 6;
